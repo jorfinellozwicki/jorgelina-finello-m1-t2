@@ -2,3 +2,96 @@ img {
     width: 280px;
     max-width: 100%;
 }
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    
+        flex-direction: column-reverse;
+    }
+.banner {
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+}
+nav{
+    display:flex;
+    position: relative;
+    top: -100px;
+justify-content: center;
+    }
+    .menu{
+        margin: 10px;
+        padding: 10px;
+        background-color: cornflowerblue;
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.603);
+    
+
+    }
+    .menu:hover{
+        background-color: yellow;
+    }
+
+    h1{
+        color:white;
+        font-size: 70px;
+        font-style: oblique;
+        padding: 0;
+        margin-top: 20px;
+        text-align: center;
+        }
+    
+    .title{
+        position:relative;   
+        top: -570px;
+     }
+
+    h2 {
+        width: 94%;
+        font-size: 50px;
+        font-style: oblique;
+        color: white;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -320px;
+        left: 3%;
+        z-index: 1;
+    }
+    .date,.info,.contact{
+        color: white;
+    }
+    .date{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        top: -370px;
+        margin-left: 300px;
+    }
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: -370px;
+        margin-left: 300px;
+        padding-top: 40px;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -266px;
+        margin-left: 300px;
+        padding-top: 40px;
+    }
+
+    .logo{
+    margin-top: -200px;
+
+    
+    }

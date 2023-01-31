@@ -11,7 +11,7 @@ nav{
 display:flex;
 flex-direction: column;
 }
-a{
+.menu{
     padding-top: 50px;
     padding-bottom: 50px;
     margin-left: 50px;
